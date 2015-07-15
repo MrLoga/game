@@ -1,0 +1,27 @@
+html, body, canvas {
+  margin: 0;
+  padding: 0;
+}
+
+#Field, #Units {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#Field {
+  background: url(img/scene1.png) no-repeat 0 0;
+}
+
+#console {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 150px;
+  z-index: 10;
+}
+#Alog {
+  position: absolute;
+  right: 300px;
+}

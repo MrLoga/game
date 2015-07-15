@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  
+<body>
+  <canvas id="Scene" style="z-index: 1;"></canvas>
+  <canvas id="Character" style="z-index: 2;" onclick="mouseClickUnit();" onmousemove="mouseMove(event);"></canvas>
+  <input id="Alog">
+
+  <div id="console">
+    mouseX = <input id="mxx"><br>
+    mouseY = <input id="myy"><br>
+    <input type="button" onclick="C.add('l1')" value="Foe.add()">
+  </div>
+
+</body>
+<script type="text/javascript" src="js/resourse.js"></script>
+<script type="text/javascript" src="js/sprite.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript" src="js/Game.js"></script>
+<script type="text/javascript" src="js/Level.js"></script>
+<script type="text/javascript" src="js/Scene.js"></script>
+<script type="text/javascript" src="js/Character.js"></script>
+<script type="text/javascript" src="js/Character-items.js"></script>
+<script type="text/javascript" src="js/Tower.js"></script>
+<script type="text/javascript" src="js/animate.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+</html>
+

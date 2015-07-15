@@ -1,0 +1,31 @@
+html, body, canvas {
+  margin: 0;
+  padding: 0;
+}
+
+#Scene, #Character {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#Character {
+  /*left: 800px;*/
+}
+#Scene {
+  border: 1px solid #eee;
+}
+
+#console {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 150px;
+  z-index: 10;
+}
+#Alog {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  text-align: right;
+}
